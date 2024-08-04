@@ -9,6 +9,7 @@ import Decades from './components/Decades';
 import DecadesPage from './components/DecadesPage';
 import GenresPage from './components/GenresPage';
 import Genres from './components/Genres';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route path='/genre/:id' element={<Genres />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
